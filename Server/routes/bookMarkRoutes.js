@@ -4,7 +4,7 @@ const bookmarkController = require("../controllers/bookmarkController");
 const authMiddleware = require("../middleware/authMiddleware");
 
 //  Add bookmark
-router.post("/:eventId", authMiddleware, bookmarkController.addBookmark);
+router.post("/:eventId", bookmarkController.addBookmark);
 
 //  Remove bookmark
 router.delete("/:eventId", authMiddleware, bookmarkController.removeBookmark);
