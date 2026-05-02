@@ -16,9 +16,10 @@ const chatRoutes = require("./routes/chatRoutes");
 const app = express();
 
 // middleware
+//frontend url
 app.use(
   cors({
-    origin: "https://final-project-client-sooty.vercel.app/",
+    origin: "https://final-project-client-sooty.vercel.app",
     credentials: true,
   })
 );
