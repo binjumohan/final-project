@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@import "leaflet/dist/leaflet.css";
+
+.footer{
+  position: fixed;
+  bottom: 0;
+}
