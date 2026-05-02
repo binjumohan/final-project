@@ -18,7 +18,7 @@ const app = express();
 // middleware
 app.use(
   cors({
-    origin: "",
+    origin: "https://final-project-client-sooty.vercel.app/",
     credentials: true,
   })
 );
